@@ -13,29 +13,46 @@
 			<ul>
 				<li id="mainLink"><a>main</a></li>
 				<li id="otherLink"><a>other</a></li>
-				<li id="somethingElseLink"><a>something else</a></li>
+				<li id="blackJackLink"><a>something else</a></li>
 			</ul>
 		</nav>
 	</header>
 	<section>
 		<section id="main" class="content">
 			<div>
-				<p>some text</p>
+				<p>Welcome to the main page, this is the only page. To access other content use the nav bar, it uses jquery to change the contents displayed on the page.</p>
 			</div>
 		</section>
 
 		<section id="other" class="content">
 			<div>
-				<p>some text</p>
+				<h2>Have a Beer</h2>
+				<button id="get">get a beer</button>
+				<p id="beer">press the button to get a beer.</p>
 			</div>
 		</section>
 
-		<section id="somethingElse" class="content">
+		<section id="blackJack" class="content">
 			<div>
-				<p>some text</p>
+				<div class="left">
+					<p>Your hand:</p>
+					<p id="hand">getting cards ...</p>
+					<button id="hit">hit</button>
+					<button id="stick">stick</button>
+					<button id="reset">reset</button>
+				</div>
+				<div class="right">
+					<p>Your total:</p>
+					<p id="total">getting cards ...</p>	
+				</div>
+
 			</div>
 		</section>
 	</section>
+
+	<footer>
+		<p>made by Matthew Dewhirst 2016</p>
+	</footer>
 	
 </body>
 </html>
